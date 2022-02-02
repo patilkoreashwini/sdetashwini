@@ -27,7 +27,7 @@ public class CreateContactTest {
 	    {
 	    	driver=new ChromeDriver();
 	    }
-	    else if ((BROWSER.equals("firefox")))
+	    else if (BROWSER.equals("firefox"))
 	    		{
 	    	driver=new FirefoxDriver();
 	    	
